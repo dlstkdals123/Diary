@@ -1,0 +1,118 @@
+/*  ================================
+    Font Settings
+    ================================*/
+
+@font-face {
+    font-family: 'Freesentation-9Black';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2404@1.0/Freesentation-9Black.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+}
+
+/*  ================================
+    Default Settings
+    ================================*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: "Times New Roman", sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    border: 0;
+}
+
+
+/*  ================================
+    left-aside Settings
+    ================================*/
+
+.left-aside {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 238px;
+    padding: 20px;
+    border-right: 2px solid black;
+}
+
+.left-aside #search-container {
+    display: flex;
+    justify-content: center;
+}
+
+.left-aside .search-input {
+    padding: 5px 10px;
+}
+
+.left-aside nav ul {
+    list-style: none;
+    padding-top: 20px;
+}
+
+.left-aside nav ul li {
+    margin-bottom: 10px;
+}
+
+.left-aside nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+
+/*  ================================
+    header Settings
+    ================================*/
+
+.header {
+    margin: 10px 0 10px 280px;
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 2px solid black;
+}
+
+.header h1 {
+    font-family: 'Freesentation-9Black', 'Times New Roman', serif;
+    font-size: 40px;
+}
+
+
+/*  ================================
+    main-content Settings
+    ================================*/
+
+.main-content {
+    margin-left: 280px;
+    padding: 10px;
+    flex-grow: 1;
+    overflow-y: auto;
+    height: 2000px;
+}
+
+
+
+/*  ================================
+    footer Settings
+    ================================*/
+
+.footer {
+    text-align: center;
+    padding: 10px 0;
+    border-top: 2px solid #6ECEDA;
+    margin-left: 280px;
+}
